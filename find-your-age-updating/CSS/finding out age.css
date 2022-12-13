@@ -1,0 +1,27 @@
+/** @format */
+
+#age {
+  background-color: white;
+  border: darkblue;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 10px;
+  position: absolute;
+  top: 80px;
+  left: 90px;
+}
+.button {
+    background-color: white;
+    border: darkblue;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 10px;
+    text-align: center;
+  }
+
+  .button:hover {
+    box-shadow: rgba(5, 30, 197, 0.953) 0px 10px 10px;
+    background-color: white;
+    -webkit-transform: translateY(0.9px);
+    transform: translateY(-0.9px);
+  }
